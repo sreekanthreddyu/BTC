@@ -10,7 +10,6 @@ GROUP BY output_address
 ORDER BY total_sent DESC
 )
 
-)
 SELECT
 w.output_address,
 w.total_sent,
